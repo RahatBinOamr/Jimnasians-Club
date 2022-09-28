@@ -3,6 +3,7 @@ import Jimnasian from '../Jimnasian/Jimnasian';
 import './Jimnasians.css'
 const Jimnasians = () => {
     const [jimnasians,setJimnasians]=useState([]);
+    const [details,setDetails]=useState([]);
     useEffect(()=>{
         fetch(`jimnasianData.json`)
         .then(res=>res.json())
@@ -10,6 +11,14 @@ const Jimnasians = () => {
     },[])
     console.log(jimnasians);
 
+        
+const handelAddBtn=()=>{
+    let time=0;
+    for(const jimnasians of details){
+        time = jimnasians.time+time;
+        return;
+    }
+}
     return (
         <div className='jimnasians-container'>
          <div className='jimnasian'> 
@@ -17,6 +26,8 @@ const Jimnasians = () => {
            {
             jimnasians.map(jimnasians=><Jimnasian 
             key={jimnasians.id}
+            details={details}
+            setDetails={setDetails}
             jimnasians={jimnasians} ></Jimnasian> )
            }
        
