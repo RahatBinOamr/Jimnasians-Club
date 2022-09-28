@@ -1,0 +1,58 @@
+[
+    {
+      "id": "6334a640f6f24d647df6455b",
+      "picture": "https://img.freepik.com/premium-photo/brutal-strong-bodybuilder-athletic-men-pumping-up-muscles-with-dumbbells_174475-671.jpg?w=996",
+      
+      "age": 27,
+      "name": "Park Monroe",
+      "time": 30
+    },
+    {
+      "id": "6334a64009ac9145fbebbdc5",
+      "picture": "https://as1.ftcdn.net/v2/jpg/03/20/45/94/1000_F_320459487_SAvrvfR4NN4CkFQccj49rBfmiLoYebuw.jpg",
+
+      "age": 34,
+      "name": "Skinner Robles",
+      "time": 24
+    },
+    {
+      "id": "6334a640174c0354978fa1b3",
+      "picture": "https://t4.ftcdn.net/jpg/02/11/63/23/240_F_211632301_jv84LtsRR88jiNdlDMHFhUJOh1ATvgaV.jpg",
+
+      "age": 40,
+      "name": "Anna Casey",
+      "time": 33
+    },
+    {
+      "id": "6334a640a67796e34382ceab",
+      "picture": "https://t4.ftcdn.net/jpg/01/75/70/77/240_F_175707764_hJaeECfaRwFY1au8Emlas9Xf94AqCMlj.jpg",
+      "age": 31,
+      "name": "Beard Slater",
+      "time": 40
+    },
+    {
+      "id": "6334a6404c9f568783da8db3",
+      "picture": "https://t4.ftcdn.net/jpg/02/77/74/71/240_F_277747152_f53P7FiUVxLuSU9FdsAZto0EQQcTZu04.jpg",
+
+      "age": 28,
+      "name": "Slater Joyce",
+      "time": 54
+    },
+    {
+      "id": "6334a640eec872bb4c834973",
+      "picture": "https://t3.ftcdn.net/jpg/03/77/26/06/240_F_377260697_YpSR6ftiIf3PpHtIVnXnFOwwbxHDhCn6.jpg",
+
+      "age": 36,
+      "name": "Concepcion Sosa",
+      "time": 44
+    },
+    {
+        "id": "6334576e0858d95435b5bc0b",
+        "picture": "https://t3.ftcdn.net/jpg/01/37/83/40/240_F_137834005_x4EbUZplVXgJWwfLmEWR5IasBgoNjhxX.jpg",
+        "name": "Vienna",
+        "time": 55
+        
+    }
+   
+
+  ]

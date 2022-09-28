@@ -4,15 +4,23 @@ import './Jimnasians.css'
 const Jimnasians = () => {
     const [jimnasians,setJimnasians]=useState([]);
     useEffect(()=>{
-        fetch('data.json')
+        fetch(`jimnasianData.json`)
         .then(res=>res.json())
         .then(data=>setJimnasians(data))
     },[])
+    console.log(jimnasians);
+
     return (
         <div className='jimnasians-container'>
-         <div> 
+         <div className='jimnasian'> 
            
-        <Jimnasian jimnasians={jimnasians} ></Jimnasian>
+           {
+            jimnasians.map(jimnasians=><Jimnasian 
+            key={jimnasians.id}
+            jimnasians={jimnasians} ></Jimnasian> )
+           }
+       
+        
         </div>
          <div> store house</div>
             

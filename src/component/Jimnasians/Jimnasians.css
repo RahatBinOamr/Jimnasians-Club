@@ -2,5 +2,14 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     gap: 10px;
+    padding: 0px 50px ;
+    margin-top: 10px;
+    
+}
+.jimnasian{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
     
 }
