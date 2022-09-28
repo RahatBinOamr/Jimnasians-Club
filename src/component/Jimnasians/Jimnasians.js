@@ -32,8 +32,15 @@ const Jimnasians = () => {
                     <h5>20y <small>age</small></h5>
                     </div>
                 </div>
+                <h1>Add to break</h1>
+                <div className='break'>
+                    <p><small>30</small></p>
+                    <p><small>40</small></p>
+                    <p><small>50</small></p>
+                    <p><small>20</small></p>
+                </div>
             </div>
-            
+
         </div>
         
         

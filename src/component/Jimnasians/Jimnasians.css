@@ -25,6 +25,19 @@
     grid-template-columns: repeat(3,1fr);
     gap: 3px;
 }
+.break{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+    border: 2px solid goldenrod;
+    border-radius: 30px;
+    background-color: #fff;
+}
+.break p{
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+}
+
 @media screen and (max-width:600px) {
     .jimnasian{
         display: grid;
