@@ -1,7 +1,30 @@
 .jimnasian-container{
     background-color: bisque;
     border-radius: 10px;
+    height: 300px;
+    width: 350px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .jimnasian-cart-container img{
     width: 200px;
+}
+.jimnasian-cart-container h3{
+    margin: 5px;
+}
+.jimnasian-cart-container p{
+    margin: 7px;
+}
+.add-btn{
+    background-color: darkturquoise;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    
+    position: absolute;
+    bottom: 0;
 }
