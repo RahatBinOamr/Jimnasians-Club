@@ -39,6 +39,11 @@ const Jimnasians = () => {
                     <p><small>50</small></p>
                     <p><small>20</small></p>
                 </div>
+                <h1> Excersice Details </h1>
+                <div>
+                    <p className='excersice'> Excersice Time: </p>
+                    <p className='break-time'> break time Time: </p>
+                </div>
             </div>
 
         </div>

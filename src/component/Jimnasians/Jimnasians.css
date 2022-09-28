@@ -37,6 +37,21 @@
     border: 2px solid goldenrod;
     border-radius: 50px;
 }
+.excersice{
+    background-color: #fff;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    
+   margin: 20px;
+}
+.break-time{
+    background-color: #fff;
+    border: 2px solid goldenrod;
+    border-radius: 15px;
+    
+    margin: 20px;
+}
+
 
 @media screen and (max-width:600px) {
     .jimnasian{
