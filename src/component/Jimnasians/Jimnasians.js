@@ -22,7 +22,21 @@ const Jimnasians = () => {
        
         
         </div>
-         <div> store house</div>
+        <div className='store-container'> 
+            <div>
+                <h6>MD Rahat <small>rahatbinomar@gmail.com</small></h6>
+                <div>
+                    <div className='qualification'>
+                    <h5>70 <small>Width</small></h5>
+                    <h5>5.6 <small>Height</small></h5>
+                    <h5>20y <small>age</small></h5>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        
             
         </div>
     );

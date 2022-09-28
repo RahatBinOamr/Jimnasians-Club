@@ -13,6 +13,18 @@
     position: relative;
     
 }
+.store-container{
+    background-color: antiquewhite;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.qualification{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3px;
+}
 @media screen and (max-width:600px) {
     .jimnasian{
         display: grid;
