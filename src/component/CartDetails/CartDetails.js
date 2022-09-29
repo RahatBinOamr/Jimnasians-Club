@@ -1,9 +1,11 @@
 import React from 'react';
 import './CartDetails.css'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 const CartDetails = ({cart,setCart}) => {
+console.log(cart);
 
-
-
+const notify = () => toast("Wow so easy!");
     return (
         <div>
             <div>
@@ -24,12 +26,13 @@ const CartDetails = ({cart,setCart}) => {
                 </div>
                 <h1> Excersice Details </h1>
                 <div>
-                    <p className='excersice'> Excersice Time: {cart.length}  </p>
+                    <p className='excersice'> Excersice Time:{cart.id}  </p>
                     <p className='break-time'> Break  Time: </p>
                 </div>
                 <div>
-                    <button className='extera'>Activity Component</button>
-                </div>
+        <button className='extera' onClick={notify}>Excersice Complete</button>
+        <ToastContainer />
+      </div>
             </div>
         </div>
     );
