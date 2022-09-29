@@ -3,4 +3,12 @@
     border: 1px solid goldenrod;
     padding: 30px 50px;
     margin: 15px;
+    position: relative;
+}
+@media screen and (max-width:550px) {
+    .question{
+        position: absolute;
+        bottom: 0;
+    }
+    
 }
