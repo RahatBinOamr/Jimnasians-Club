@@ -37,20 +37,3 @@
     padding: 7px;
 }
 
-@media screen and (max-width:600px) {
-    .jimnasian{
-        display: grid;
-        grid-template-columns: 1fr  ;
-        gap: 10px;
-        
-    }
-}
-@media screen and (max-width:1100px) {
-    .jimnasian{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr) ;
-        gap: 10px;
-        height: 150px;
-        width: 200px;
-    }
-}

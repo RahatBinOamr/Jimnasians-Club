@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './CartDetails.css'
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-const CartDetails = ({cart,setCart}) => {
-console.log(cart);
+
+  const CartDetails = ({cart}) => {
+    // const [break,setbreak]=useState(0)
+ const handelBreakTime =()=>{
+   const time =[40,30,50,20];
+ }
 
 const notify = () => toast("Wow so easy!");
+
+
+let total = 0;
+for (const times of cart){
+    total = total + parseInt(times.time)
+}
+
     return (
         <div>
             <div>
@@ -19,15 +30,17 @@ const notify = () => toast("Wow so easy!");
                 </div>
                 <h1>Add to break</h1>
                 <div className='break'>
-                    <p><small>30</small></p>
-                    <p><small>40</small></p>
-                    <p><small>50</small></p>
-                    <p><small>20</small></p>
+                    <p onClick={ ()=>handelBreakTime('40')} >40</p>
+                    <p onClick={ ()=>handelBreakTime('30')} >30</p>
+                    <p onClick={ ()=>handelBreakTime('50')} >50</p>
+                    <p onClick={ ()=>handelBreakTime('20')} >20</p>
+                    
+                    
                 </div>
                 <h1> Excersice Details </h1>
                 <div>
-                    <p className='excersice'> Excersice Time:{cart.id}  </p>
-                    <p className='break-time'> Break  Time: </p>
+                    <p className='excersice'> Excersice Time:{total}s  </p>
+                    <p className='break-time'> Break  Time: {}  </p>
                 </div>
                 <div>
         <button className='extera' onClick={notify}>Excersice Complete</button>

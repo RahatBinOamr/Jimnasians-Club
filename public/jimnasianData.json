@@ -6,7 +6,7 @@
       "quantity": 0,
       "age": 34,
       "name": "Park Monroe",
-      "time": 30
+      "time": "30"
       
     },
     {
@@ -16,7 +16,7 @@
       "age": 34,
       "quantity": 0,
       "name": "Skinner Robles",
-      "time": 24
+      "time": "24"
     },
     {
       "id": "6334a640174c0354978fa1b3",
@@ -25,7 +25,7 @@
       "age": 40,
       "quantity": 0,
       "name": "Anna Casey",
-      "time": 33
+      "time": "33"
     },
     {
       "id": "6334a640a67796e34382ceab",
@@ -33,7 +33,7 @@
       "age": 31,
       "quantity": 0,
       "name": "Beard Slater",
-      "time": 40
+      "time": "40"
     },
     {
       "id": "6334a6404c9f568783da8db3",
@@ -42,7 +42,7 @@
       "age": 28,
       "quantity": 0,
       "name": "Slater Joyce",
-      "time": 54
+      "time": "54"
     },
     {
       "id": "6334a640eec872bb4c834973",
@@ -51,7 +51,7 @@
       "age": 36,
       "quantity": 0,
       "name": "Concepcion Sosa",
-      "time": 44
+      "time": "44"
     },
     {
         "id": "6334576e0858d95435b5bc0b",
@@ -59,7 +59,7 @@
         "name": "Vienna",
         "age": 33,
         "quantity": 0,
-        "time": 55
+        "time": "55"
         
     }
    

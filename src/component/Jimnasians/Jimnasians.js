@@ -6,21 +6,20 @@ import './Jimnasians.css'
 const Jimnasians = () => {
     const [jimnasians,setJimnasians]=useState([]);
     const [cart,setCart]=useState([]);
+    
     useEffect(()=>{
-        fetch(`jimnasianData.json`)
+        fetch('jimnasianData.json')
         .then(res=>res.json())
         .then(data=>setJimnasians(data))
     },[])
     // console.log(jimnasians);
 
- const handelAddToBtn = (pb)=>{
-    console.log(pb);
-    // const newCart = [...cart,jimnasians];
-    // setCart(newCart)
+ const handelAddToBtn = (jimnasian)=>{
+    console.log(jimnasian)
+    const newCart = [...cart,jimnasian];
+    setCart(newCart)
  }
-        
  
-
     return (
         <div className='jimnasians-container'>
          <div className='jimnasian'> 
