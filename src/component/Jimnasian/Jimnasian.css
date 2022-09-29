@@ -20,11 +20,11 @@
 .add-btn{
     background-color: darkturquoise;
     border: none;
-    padding: 5px;
+    padding: 8px;
     border-radius: 10px;
     color: #fff;
     font-weight: 500;
-    
+    align-content: center;
     position: absolute;
     bottom: 0;
 }

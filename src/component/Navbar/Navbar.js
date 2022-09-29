@@ -2,12 +2,13 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCheckSquare} from '@fortawesome/free-solid-svg-icons'
 import './Navbar.css'
+
 const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='icon'>
             <FontAwesomeIcon icon={ faCheckSquare}></FontAwesomeIcon> 
-           
+          
            <p>Jimnasians Club</p>
                 
             </div>

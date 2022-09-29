@@ -6,7 +6,7 @@ import './Jimnasians.css'
 const Jimnasians = () => {
     const [jimnasians,setJimnasians]=useState([]);
     const [cart,setCart]=useState([]);
-    
+   
     useEffect(()=>{
         fetch('jimnasianData.json')
         .then(res=>res.json())
